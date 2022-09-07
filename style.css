@@ -122,6 +122,13 @@ header img{
 	width: 100%;
 	object-fit: cover;
 	object-position: top;
+
+
+	animation-name: efectoUno;
+	animation-timing-function: ease-in-out;
+	animation-duration: 4s;
+
+
 }
 
 
@@ -142,7 +149,9 @@ header img{
 	color: whitesmoke;
 	position: relative;
 	text-align: center;
-	background-color: black	;	
+	background: radial-gradient(circle, rgba(0,0,0,1) 90%, rgba(255,255,255,0) 100%);
+
+
     /*padding: 20px 20px 30px 20px;
     margin: 25px;*/
     border-radius: 10px;
@@ -563,6 +572,18 @@ h5{
 
 
 
+
+
+
+
+/*ANIMACION PARA PROBAR EL CONCEPTO Y LA ENTREGA DE GITHUB*/
+
+@keyframes efectoUno{
+	0%{ height: 10%; }
+	50%{height: 40%;}
+	100%{height: 100%;}
+
+}
 
 
 
