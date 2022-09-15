@@ -51,45 +51,47 @@
 	<!-- TERMINA NAV BAR DE BS -->
 	<main>
 		<h1 class="mb-5">Contactanos!</h1>
-			<section class="row mx-auto formStyle">
-				<img src="img/welcome.webp" alt="bienvenidos" class="col-8 col-md-4 mx-auto">
+			<section class="row mx-auto formStyle fs-3 container h-100 align-items-center">
+						<img src="img/welcome.png" alt="bienvenidos" class="h-50 col-md-5 col-8 mx-auto mb-5">			
+
 				<div class="col-12 col-md-6 mx-auto">
 					<h2 class="mx-auto">Programá tu sesión:</h2>
-						<form action="" class="col-12 col-md-8	mx-auto">
-							<label for="nombre" class="form-label">Nombre y apellido:</label>
-							<input type="text"  class="form-control" id="nombre" placeholder="Leon Kees" required>
+						<form action="" class="col-6 col-md-6 mx-auto mb-5">
+							<label for="nombre" class="form-label fw-bold">Nombre y apellido:</label>
+							<input type="text"  class="form-control input-group-text input-group-lg" id="nombre" placeholder="Leon Kees" required>
 							<br>
-							<label for="mail" class="form-label">Email:</label>
+							<label for="mail" class="form-label fw-bold">Email:</label>
 							<input type="email"  class="form-control" id="mail" placeholder="leon@mail.com" required>
 							<br>
-							<label for="fono" class="form-label">Telefono:</label>
+							<label for="fono" class="form-label fw-bold">Telefono:</label>
 							<input type="tel"  class="form-control" id="fono" placeholder="+54 911 xxxx-xxxx">
 							<br>
-							<label for="cupo" class="form-label">Cuantos son?</label>
+							<label for="cupo" class="form-label fw-bold">Cuantos son?</label>
 							<input type="number"  class="form-control" id="cupo" required>
 							<br>
-							<fieldset>
-					            <legend>Que actividad te interesa?</legend>
-					            	<select id="opcion" name="opcion">
+							<fieldset class="fs-3 mb-3">
+					            <legend class="fw-bold fs-3">Que actividad te interesa?</legend>
+					            	<select id="opcion" name="opcion" class="mx-auto">
 					                	<option>Aventura Inicial GRATIS!</option>
 					                	<option>Curso GMs</option>
 					                	<option>Campaña Personalizada</option>
 					                	<option>Otro - Especificar en Comentarios</option>
 					            	</select>
 				        	</fieldset>
-							<label for="comentarios" class="form-label">Comentarios:</label>
+							<label for="comentarios" class="form-label fw-bold">Comentarios:</label>
 							<br>
-							<textarea name="" id="comentarios" cols="30" rows="10"></textarea>
+							<textarea name="" id="comentarios" cols="30" rows="5"></textarea>
 							<br>
-							<input type="reset"   class="form-control" value="Cancelar">
-							<input type="submit"  class="form-control" value="Enviar">
+							<input type="reset"   class="form-control fs-3" value="Cancelar">
+							<input type="submit"  class="form-control fs-3" value="Enviar">
 						</form>
 				</div>
 			</section>
 			<h2>Mapa al Club:</h2>
-		<section>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13140.726811136423!2d-58.47442965!3d-34.57426865000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66f790fd5dd%3A0xc9e8588552cb79c5!2sAndreani%20Villa%20Urquiza!5e0!3m2!1sen!2sar!4v1659485172859!5m2!1sen!2sar" width=50% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<section class="row">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13140.726811136423!2d-58.47442965!3d-34.57426865000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66f790fd5dd%3A0xc9e8588552cb79c5!2sAndreani%20Villa%20Urquiza!5e0!3m2!1sen!2sar!4v1659485172859!5m2!1sen!2sar" class="col-10 col-md-8 col-lg-6 mx-auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</section>
+
 		<h3>Los esperamos! Buenas aventuras!</h3>
 		<img src="img/bob.png" alt="bob esponja" height="300px">
 	</main>
@@ -104,5 +106,8 @@
 			<img src="img/youtube.svg" alt="link al canal de youtube" height="100px">
 		</a>		
 	</footer>
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">	
+</script>
 </body>
 </html>

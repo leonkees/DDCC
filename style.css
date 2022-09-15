@@ -9,6 +9,25 @@
 }
 
 
+
+
+.navbar-toggler-icon {
+       background-image: url("img/d20.png");
+       background-size: contain;
+       background-position: center;
+       width: 70px;
+       height: 70px;
+
+}
+
+
+
+
+
+
+
+
+
 html{
     font-size: 62.5%;
 }
@@ -441,9 +460,10 @@ h5{
 
 /*DEFINO GRIDS PARA MOBILE INDEX*/
 
-.grid-index{
-	/*width: 100vw;
-	height: 100vh;*/
+
+/*.grid-index{
+	width: 100vw;
+	height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
@@ -454,7 +474,9 @@ h5{
 	"cta" 
 	"footer";
 }
+*/
 
+/*
 #nav{
 	grid-area: nav;
 }
@@ -473,28 +495,28 @@ h5{
 
 #footer{
 	grid-area: footer;
-}
+}*/
 
 
 
 /*OCULTO LA NAV PARA RESOLUCIONES CHICAS*/
-
+/*
 @media (max-width: 768px){
 
 	.navStyle ul{
 		display: none;
 	}
-}
+}*/
 
 /*CORRIJO TAMAÑO DE CARROUSEL PARA RESOLUCIONES GRANDES*/
 
-@media (min-width: 768px){
+/*@media (min-width: 768px){
 
 	.carrouselCentre{
 		width: 30%;
 	}
 }
-
+*/
 
 
 
