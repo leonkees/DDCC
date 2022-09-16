@@ -1,0 +1,57 @@
+
+
+
+
+
+.navbar-toggler-icon {
+    background-image: url("img/d20.png");
+    background-size: contain;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+
+}
+
+
+.navStyle{
+	background-color: rgba(255, 255, 255, 0.7);	
+    position: sticky;
+    padding: 0px 0px;
+    width: 100%;
+
+    img{
+        width: 200px;
+        justify-self: start;
+    }
+    ul{
+        align-items: center;
+        align-content: stretch;
+
+        li{
+            list-style: none;
+            margin-right: 50px;
+            padding-bottom: 10px;
+            align-content: center;
+            text-align: center;
+
+            a{
+                color: $colorMain;
+                text-decoration: none;
+                font-family: $fontText;
+                font-size: 2rem;
+                line-height: 4rem;
+                text-align: justify;
+                white-space: pre-line;
+                justify-self: center;
+
+                    &:hover{
+                        color: black;
+                        text-decoration: underline;
+                    }
+
+                }   
+            }
+    }
+
+
+}

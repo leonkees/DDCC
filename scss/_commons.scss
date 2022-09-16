@@ -1,0 +1,95 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cinzel+Decorative:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+// defino variables
+
+$colorMain: black;
+$fontBig: "Bungee Shade";
+$fontText: "Libre Baskerville";
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/mapback.webp);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+align-content: center;
+text-align: center;
+align-items: center;
+align-self: center;
+}
+
+
+h1{
+    color: $colorMain;
+    font-size: 4rem;
+    font-family: $fontBig;
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
+    
+}
+
+h2,h3,h4{
+	color: $colorMain;
+    font-size: 3rem;
+    font-family: $fontText;
+    text-align: center;
+    line-height: 5rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+button{
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	align-content: center;
+	position: relative;
+	border-radius: 20px;
+	font-size: 1.7rem;
+	font-family: "Libre Baskerville";
+	z-index: 3000;
+	font-weight: 800;
+	cursor: pointer;
+
+    &:hover{
+        font-size: 2rem;
+        text-decoration: underline;
+        font-weight: 800;
+        z-index: 3000;
+    }
+}
+
+
+@keyframes efectoUno{
+	0%{ height: 10%; }
+	50%{height: 40%;}
+	100%{height: 100%;}
+
+}
+
