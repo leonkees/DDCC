@@ -1,0 +1,56 @@
+
+
+
+.imagenCentrada{
+
+	width: 60%;
+	display: inline-block;
+	position: relative;
+	align-content: center;
+	text-align: center;
+	background-color: black	;	
+    padding: 20px 20px 30px 20px;
+    margin: 25px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.tablaActividades{
+	font-size: 2rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 20px;
+	text-align: center;
+	border-style: hidden;
+	outline-width: medium;
+	display: inline-block;
+    min-width: 850px;
+    max-width: 1200px;
+}
+
+
+
+table tr th {
+	text-shadow: black;
+	font-style: italic;
+	font-size: 2.3rem;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+table tr td {
+	padding: 10px 15px;
+}
+
+.primerCelda{
+	font-weight: 600;
+}
+
+.grayBack{
+	background: rgba(200, 200, 200, 0.4);
+}
+
+
+

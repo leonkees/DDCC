@@ -5,45 +5,74 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Que es D&D?</title>
 	<link rel="icono" href="img/ddlogo.webp" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- MI CSS -->
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<nav class="navStyle">
-		<a href="./index.html">
-			<img src="img/ddlogo.webp" alt="logo del club" width="200px">
-		</a>
-		<ul>
-			<li>
-				<a href="./index.html">Home</a>
-			</li>
-			<li>
-				<a href="./actividades.html">Actividades y Servicios</a>
-			</li>
-			<li class="paginaBold">
-				<a href="./historia-juego.html">Qué es D&D?</a>
-			</li>
-			<li>
-				<a href="./quienessomos.html">Quienes somos?</a>
-			</li>
-			<li>
-				<a href="./contacto.html">Contacto</a>
-			</li>
-		</ul>
-	</nav>
+
+	<!-- USO NAV BAR DE BS -->
+
+	<nav class="navbar navbar-expand-lg navStyle">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="./index.html">
+			  <img src="img/ddlogo.webp" alt="logo del club" >
+		  </a>
+	  
+		  <button id="d20" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	  
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="./actividades.html">Actividades 
+					  y Servicios</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Ver Más +
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="./historia-juego.html">Qué es D&D?</a></li>
+				  <li><a class="dropdown-item" href="./quienessomos.html">Quienes somos?</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+				</ul>
+			  </li>
+			  
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	  
+		  <!-- TERMINA NAV BAR DE BS -->
+	  
+	  
+
+
+	
 	<main >
 		<h1>Que */$!? es Dungeons & Dragons?</h1>
-		<section class="historiaSection">
-			<div>
+		<section class="historiaSection row">
+			<img class="col-10 col-lg-6" src="img/stranger.jpg" alt="foto stranger things">
+			<div class="col-10 col-lg-6">
 				<h2>En pocas palabras...</h2>
 				<p>Dungeons & Dragons (en español Dragones y mazmorras o Calabozos y dragones) es un juego de rol de fantasía heroica publicado por Wizards of the Coast.</p>
 				<p>
 				En estos juegos cada participante asume un papel determinado: hay guerreros, magos, sacerdotes, elfos y muchos otros. A cada personaje le corresponde unas características básicas: los guerreros siempre tendrán una gran dosis de audacia y valentía y los elfos una gran facilidad de palabra, por ejemplo.
 				</p>
+			</div>
+			<div class="col-10">
 				<p>
-				En este juego no hay ganadores ni perdedores, el objetivo del juego es contar un historia de manera colaborativa entre todos los jugadores. La figura del GM (Game Master) es la encargada de arbitrar y guiar al grupo en una dirección para que la historia avance.
+				En D&D no hay ganadores ni perdedores, el objetivo del juego es contar un historia de manera colaborativa entre todos los jugadores. La figura del GM (Game Master) es la encargada de arbitrar y guiar al grupo en una dirección para que la historia avance.
 				</p>
 			</div>
-			<img src="img/stranger.jpg" alt="foto stranger things">
+
 		</section>
 		<section class="historiaSection">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/RO2qv5Uin9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -82,5 +111,10 @@
 			<img src="img/youtube.svg" alt="link al canal de youtube" height="100px">
 		</a>		
 	</footer>
+
+	<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">	
+</script>
+
 </body>
 </html>
