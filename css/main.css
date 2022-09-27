@@ -89,8 +89,8 @@ button:hover {
   background-image: url("../img/d20.png");
   background-size: contain;
   background-position: center;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 
 .navStyle {
@@ -101,7 +101,7 @@ button:hover {
   width: 100%;
 }
 .navStyle img {
-  width: 200px;
+  width: 110px;
   justify-self: start;
 }
 .navStyle ul {
@@ -117,10 +117,9 @@ button:hover {
 }
 .navStyle ul li a {
   color: black;
-  text-decoration: none;
   font-family: "Libre Baskerville";
-  font-size: 2rem;
-  line-height: 4rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
   text-align: justify;
   white-space: pre-line;
   justify-self: center;

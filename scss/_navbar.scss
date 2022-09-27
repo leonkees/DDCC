@@ -7,8 +7,8 @@
     background-image: url("../img/d20.png");
     background-size: contain;
     background-position: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 
 }
 
@@ -20,7 +20,7 @@
     width: 100%;
 
     img{
-        width: 200px;
+        width: 110px;
         justify-self: start;
     }
     ul{
@@ -36,10 +36,10 @@
 
             a{
                 color: $colorMain;
-                text-decoration: none;
+                // text-decoration: none;
                 font-family: $fontText;
-                font-size: 2rem;
-                line-height: 4rem;
+                font-size: 1.5rem;
+                line-height: 3rem;
                 text-align: justify;
                 white-space: pre-line;
                 justify-self: center;
