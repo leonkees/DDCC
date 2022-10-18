@@ -13,7 +13,7 @@ $fontText: "Libre Baskerville";
 
 
 // edito variables de BS
-$carousel-control-color:             $white;
+$carousel-control-color:             white;
 $carousel-control-width:             30%;
 $carousel-control-opacity:           .8;
 $carousel-control-hover-opacity:     1;
@@ -50,10 +50,11 @@ align-self: center;
 
 h1{
     color: $colorMain;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: $fontBig;
     text-align: center;
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-weight: 700;
     
 }
